@@ -5,15 +5,14 @@ pragma solidity ^0.8.1;
 contract FINNEX {
     // An address is comparable to an email address - it's used to identify an account on Ethereum.
     address public owner;
-    uint256 public constant token_supply = 500000000;
+    uint256 public constant token_supply = 1000000000000;
 
     // A mapping is essentially a hash table data structure.
     // This mapping assigns an unsigned integer (the token balance) to an address (the token holder).
     mapping (address => uint) public balances;
 
 
-  // When 'FINNEX'
-  contract is deployed:
+  // When 'FINNEX' contract is deployed:
   // 1. set the deploying address as the owner of the contract
   // 2. set the token balance of the owner to the total token supply
     constructor() {
@@ -35,3 +34,10 @@ contract FINNEX {
 YOUR OWN CURRENCY
 Ethereum today
 Th
+  
+  
+      
+       
+   
+
+ 
